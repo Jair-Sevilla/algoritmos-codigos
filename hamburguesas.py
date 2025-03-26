@@ -1,15 +1,15 @@
 #Calcular precio de hamburguesa segun el costo de los ingredientes
-#Costos de ingredientes
+#Costos de ingredientes Ingredient costs
 pan= 7.5 #60/8
 carne= 9 #72/8
 queso= 5.5 #44/8
 vegetales= 3.75 #30/8
 salsa= 2.5 #20/8
-#Costos fijos
+#Costos fijos Fixed costs
 empaque= 2.5
 energia= 4
 alquiler= 4000 #4000/30
-manodeobra= 6000/500 #6000"paga de mano de obra"/500"cantidad de hamburguesas que produce"
+manodeobra= 6000/500 #6000"paga de mano de obra"/500"cantidad de hamburguesas que produce" "labor pay"/500"number of hamburgers produced"
 margendeutilidad= 0.40
 ingredientes= (pan+carne+queso+vegetales+salsa)
 costotal= ingredientes+empaque+energia+manodeobra
