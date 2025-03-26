@@ -10,7 +10,7 @@ empaque= 2.5
 energia= 4
 alquiler= 4000 #4000/30
 manodeobra= 6000/500 #6000"paga de mano de obra"/500"cantidad de hamburguesas que produce"
-margendeutilidad= 0.30
+margendeutilidad= 0.40
 ingredientes= (pan+carne+queso+vegetales+salsa)
 costotal= ingredientes+empaque+energia+manodeobra
 print("Precio de ingredientes por hamburguesa: $", ingredientes)
