@@ -1,0 +1,61 @@
+# Vamos a ver la primer estrcutura de control: Secuencial
+# Asignacion -> Entrada -> Salida
+# Ejemplo: Solicitar un numero y multiplicarlo por 5 y entregar resultado
+
+numero = float(input("Ingrese un numero: "))
+resultado = numero * 5
+print("El resultado es: ", resultado)
+
+# Estructura de control: Condicionales
+# Son Simples y multiples
+# Ejemplo tipo de postre. Pedir al usuario que elija un postre
+
+opcion_uno = "Helado"
+opcion_dos = "Cheescake"
+opcion_tres = "Flan"
+opcion_cuatro = "Gelatina"
+
+print("Elija un postre: ")
+print("1. ", opcion_uno)
+print("2. ", opcion_dos)
+print("3. ", opcion_tres)
+print("4. ", opcion_cuatro)
+
+if opcion_uno == "Helado":
+    print("Selecciono un helado")
+    if opcion_dos == "Cheescake":
+        print("Selecciono un cheescake")
+        if opcion_tres == "Flan":
+            print("Selecciono un flan")
+            if opcion_cuatro == "Gelatina":
+                print("Selecciono una gelatina")
+
+#Estructura de control Cicilica: For / While
+#Una caracteristica es que podemos hacer bucles y detenerlos hasta
+#donde se lo indiquemos
+
+for i in range(10):
+    print(i)
+
+# Asignacion -> Entrada -> Salida
+numero = float(input("Ingrese un numero para dividirlo entre 5: "))
+resultado = numero / 5
+print("El resultado es: ", resultado)
+
+# Estructura de control: Condicionales
+
+num = int(input("Ingrese otro numero: "))
+if num > 0:
+    print("El numero es positivo")
+elif num < 0:
+    print("El numero es negativo")
+else:
+    print("El numero es cero")
+
+#Estructura de control Cicilica: For / While
+
+while True:
+    numero = int(input("Ingrese un numero o 0 para salir: "))
+    if numero == 0:
+        break
+    print("El numero es: ", numero)
